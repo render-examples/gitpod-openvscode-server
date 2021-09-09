@@ -1,0 +1,8 @@
+services:
+- type: web
+  name: gitpod-vscode-example
+  env: docker
+  disk:
+    name: data
+    mountPath: /home/workspace
+    sizeGB: 1
