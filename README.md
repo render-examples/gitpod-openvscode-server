@@ -7,7 +7,8 @@ To deploy:
 - Create a new web service using this repo and the following parameters:
   - Environment: Docker
   - Advanced > Add Environment Variable
-    - key: SERVER_VERSION value: v1.59.0
+    - key: SERVER_VERSION 
+    - value: v1.59.0
   - Advanced > Add Disk
     - Name: data
     - Mount Path: /home/workspace
