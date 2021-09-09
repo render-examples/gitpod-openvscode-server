@@ -1,2 +1,14 @@
 # gitpod-vscode-example
-Example implementation of Gitpod's VCode Webserver for Render
+Example implementation of Gitpod's VSCode Webserver for Render
+
+To deploy:
+- [Connect your GitHub account to your Render account](https://render.com/docs/github).
+- Clone this repo.
+- Create a new web service using this repo and the following parameters:
+  - Environment: Docker
+  - Advanced > Add Environment Variable
+    - key: SERVER_VERSION value: v1.59.0
+  - Advanced > Add Disk
+    - Name: data
+    - Mount Path: /home/workspace
+- Watch your VSCode Webserver deploy, and then log in at the public URL listed below your web service name.
