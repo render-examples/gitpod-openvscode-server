@@ -2,6 +2,10 @@ services:
 - type: web
   name: gitpod-vscode-example
   env: docker
+  repo: https://github.com/renderinc/gitpod-vscode-example.git
+  envVars:
+    - key: SERVER_VERSION
+      value: v1.59.0
   disk:
     name: data
     mountPath: /home/workspace
