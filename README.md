@@ -1,7 +1,10 @@
 # gitpod-vscode-example
-Example implementation of Gitpod's VSCode Webserver for Render
+Deploy Gitpod's VSCode Webserver on Render
 
-To deploy:
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+
+Manual deploy:
 - [Connect your GitHub account to your Render account](https://render.com/docs/github).
 - Clone this repo.
 - Create a new web service using this repo and the following parameters:
