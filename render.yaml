@@ -5,7 +5,7 @@ services:
   repo: https://github.com/renderinc/gitpod-vscode-example.git
   envVars:
     - key: OPENVSCODE_SERVER_VERSION
-      value: 1.59.0
+      value: 1.60.0
   disk:
     name: data
     mountPath: /home/workspace
