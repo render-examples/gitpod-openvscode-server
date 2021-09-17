@@ -2,7 +2,7 @@ services:
 - type: web
   name: gitpod-vscode-example
   env: docker
-  repo: https://github.com/renderinc/gitpod-vscode-example.git
+  repo: https://github.com/render-examples/gitpod-vscode-example.git
   envVars:
     - key: OPENVSCODE_SERVER_VERSION
       value: 1.60.0
