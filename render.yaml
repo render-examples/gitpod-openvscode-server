@@ -1,6 +1,6 @@
 services:
-- type: pserv
-  name: open-vscode-server
+- type: web
+  name: gitpod-vscode-example
   env: docker
   repo: https://github.com/renderinc/gitpod-vscode-example.git
   envVars:
