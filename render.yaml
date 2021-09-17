@@ -4,8 +4,8 @@ services:
   env: docker
   repo: https://github.com/renderinc/gitpod-vscode-example.git
   envVars:
-    - key: SERVER_VERSION
-      value: v1.59.0
+    - key: OPENVSCODE_SERVER_VERSION
+      value: 1.59.0
   disk:
     name: data
     mountPath: /home/workspace
