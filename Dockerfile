@@ -1,4 +1,4 @@
-FROM gitpod/openvscode-server
+FROM gitpod/openvscode-server:latest
 
 USER root
 
